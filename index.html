@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <menu>
+      <a href="" class="item-menu" data-elemento="ingreson">Inicio</a>
+      <a href="" class="item-menu" data-elemento="vistanotas">Visualización de las notas</a>
+      
+  </menu>
+  <div id="contenedor">
+      <div id="ingreson" class="pagina">
+        <h1>Notas </h1>
+        <textarea name="" id="notas" cols="80" rows="20" placeholder="Ingrese su nota">
+        </textarea>
+        <button id="guardar">Guardar</button>
+      </div>
+      <div id="vistanotas" class="pagina esconder">
+        <h1>Visualización de las notas</h1>
+        <br>
+        <button id="vernotas">Ver Notas</button>
+        <table id="notas_tabla"></table>
+      </div>
+      
+  </div>
+  <script src="./renderer.js"></script>
+</body>
+</html>
